@@ -1,0 +1,23 @@
+button {
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: #fff;
+    background-color: #2bc48a;
+    box-shadow: 0 2px 0 rgba(5,145,255,.1);
+    font-size: 0.75rem;
+    height: 2rem;
+    padding: 0.4063rem 0.9375rem;
+    border-radius: 0.5rem;
+}
+
+button:disabled {
+    background-color:gray;
+    color: white;
+    cursor: not-allowed;
+}
